@@ -18,6 +18,10 @@ body {
   background-image: url("/Assest/asset 38.png");
 }
 
+.btn_gradient {
+  background-image: linear-gradient(243deg, #854cff 23%, #b573f8 87%);
+}
+
 .text_gradient_teal {
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(243deg, #3dd875 23%, #0eb3a0 87%);
@@ -27,7 +31,7 @@ body {
 
 .text_gradient_pink {
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(243deg, #FF4CC2 23%, #F87393 87%);
+  background-image: linear-gradient(243deg, #ff4cc2 23%, #f87393 87%);
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -38,4 +42,25 @@ body {
 
 .company-logo {
   margin-right: 70px;
+}
+
+.light_line {
+  width: 100%;
+  height: 1px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(13, 17, 23, 0),
+    #21262d 50%,
+    rgba(13, 17, 23, 0)
+  );
+}
+
+#services_paragraph {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  /* Add ellipsis to indicate text truncation */
+  text-overflow: ellipsis;
 }

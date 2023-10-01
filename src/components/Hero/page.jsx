@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="w-full h-full flex justify-center items-center">
       <div className="w-full max-w-[400] py-20 md:py-28 md:text-center flex flex-col gap-6">
         <div className="sub-heading">
-          <h2 className="poppins text-md sm:text-xl font-medium uppercase">
+          <h2 className="poppins text-md sm:text-lg font-medium uppercase">
             from ideas to reality
           </h2>
         </div>
@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
 
         <div className="get-started mt-6">
-          <button className="text-xl bg-indigo-500 hover:bg-indigo-600 duration-200 ease-in-out text-white font-medium px-6 md:px-10 py-2 md:py-3 rounded-full">
+          <button className="text-xl btn_gradient duration-200 ease-in-out text-white font-medium px-6 md:px-10 py-2 md:py-3 rounded-full">
             Get Started
           </button>
         </div>
