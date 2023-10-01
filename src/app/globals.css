@@ -25,6 +25,17 @@ body {
   background-clip: text;
 }
 
+.text_gradient_pink {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(243deg, #FF4CC2 23%, #F87393 87%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 .poppins {
   font-family: "Poppins", sans-serif;
+}
+
+.company-logo {
+  margin-right: 70px;
 }

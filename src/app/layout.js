@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <title>Prob N Tech - </title>
         <link rel="shortcut icon" href="/Assest/favicon.png" type="image/x-icon" />
       </head>
-      <body className={`${inter.className} bg-[#0d1117] relative`}>
+      <body className={`${inter.className} bg-[#0d1117] relative overflow-x-hidden`}>
         <>
           {children}
         </>
