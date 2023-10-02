@@ -46,7 +46,7 @@ const Navbar = () => {
           About
         </Link>
         <Link
-          href={"/"}
+          href={"#service"}
           className="poppins text-lg md:text-xl font-medium hover:text-white duration-300"
         >
           Services

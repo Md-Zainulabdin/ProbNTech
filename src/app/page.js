@@ -25,7 +25,7 @@ const Home = () => {
 
       {/* Services Section */}
 
-      <section className='w-full px-[20px] sm:px-[40px] lg:px-[70px]'>
+      <section className='w-full px-[20px] sm:px-[40px] lg:px-[70px]' id={'service'}>
         <ServicesSection />
       </section>
     </div>

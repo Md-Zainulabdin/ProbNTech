@@ -7,8 +7,11 @@
   --primary-text-color: #ccdae7;
 }
 
-body {
+html {
   scroll-behavior: smooth;
+}
+
+body {
   color: var(--primary-text-color);
 }
 
