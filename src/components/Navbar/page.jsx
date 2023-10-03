@@ -22,7 +22,7 @@ const Navbar = () => {
           }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-2xl md:text-3xl font-semibold text-[--primary-text-color]"
+          className="text-2xl md:text-3xl font-bold text-[--primary-text-color]"
         >
           Prob N Tech
         </motion.h1>

@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="w-full h-full flex justify-center items-center">
       <div className="w-full max-w-[400] py-20 md:py-28 md:text-center flex flex-col gap-6">
         <div className="sub-heading">
-          <h2 className="poppins text-md sm:text-lg font-medium uppercase">
+          <h2 className="poppins text-md sm:text-lg font-medium uppercase text-[#999]">
             from ideas to reality
           </h2>
         </div>
@@ -15,7 +15,7 @@ const Hero = () => {
             <span>Explore the World </span>
             <span>
               {" "}
-              With <span className="text_gradient_pink">Prob N Tech</span>
+              With <span className="text_gradient_pink font-extrabold">Prob N Tech</span>
             </span>
           </h1>
         </div>

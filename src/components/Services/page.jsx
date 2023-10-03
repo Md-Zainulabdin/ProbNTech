@@ -38,14 +38,14 @@ const ServicesSection = () => {
     <div className="w-full">
       <div className="services title py-[20px]">
         <h1 className="text-3xl sm:text-4xl font-bold text-center md:text-left">
-          <span className="text_gradient_teal">Services,</span> We offer 👀
+          <span className="text_gradient_pink">Services,</span> We offer 👀
         </h1>
       </div>
 
       <div className="services-cards w-full flex items-center justify-center flex-wrap gap-6 py-8">
         {service_card.map((item, index) => (
           <div
-            className="w-[350px] p-6 borde bg-[#fbfbfb] flex flex-col items-start gap-3 hover:translate-y-[-15px] hover:scale-[1.02] duration-300 ease-in-out"
+            className="w-[350px] p-6 borde bg-[#fbfbfb] flex flex-col items-start gap-3 hover:translate-y-[-15px] hover:scale-[1.02] duration-300 ease-in-out shadow-md"
             key={index}
           >
             <div className="icon ">{item.icon}</div>
