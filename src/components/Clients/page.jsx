@@ -5,7 +5,7 @@ const TrustedClient = () => {
   return (
     <div className="text-center flex flex-col gap-12 pb-8">
       <div className="cient-title">
-        <h3 className="text-xl">Our trusted clients</h3>
+        <h3 className="text-xl font-semibold">Our trusted clients</h3>
       </div>
 
       <div className="client-company w-full cursor-grab">

@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
 
         <div className="text mt-3">
-          <span className="poppins bg-[#171e25] hover:bg-[#1c232b] duration-300 ease-in-out p-3 text-md sm:text-2xl rounded-md">
+          <span className="poppins shadow-sm bg-[#fbfbfb] duration-300 ease-in-out p-3 text-md sm:text-2xl rounded-md">
             Creative Minds Make Business Solutions
           </span>
         </div>

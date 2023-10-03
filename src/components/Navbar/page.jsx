@@ -8,7 +8,7 @@ const Navbar = () => {
     // Navbar
 
     <nav
-      className={`w-full h-[80px] md:h-[100px] fixed top-0 z-10 bg-[rgba(13,17,23,.88)] backdrop-blur-md flex items-center justify-between px-[20px] sm:px-[40px] lg:px-[70px]`}
+      className={`w-full h-[80px] md:h-[100px] fixed top-0 z-10 border-b backdrop-blur-md flex items-center justify-between px-[20px] sm:px-[40px] lg:px-[70px]`}
     >
       <div className="logo overflow-hidden">
         <motion.h1

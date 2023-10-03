@@ -4,7 +4,11 @@
 @tailwind utilities;
 
 :root {
-  --primary-text-color: #ccdae7;
+  /* Dark Theme */
+  --primary-text-color-dk: #ccdae7; 
+
+  /* Light Theme */
+  --primary-text-color: #222; 
 }
 
 html {
@@ -52,8 +56,8 @@ body {
   height: 1px;
   background-image: linear-gradient(
     90deg,
-    rgba(13, 17, 23, 0),
-    #21262d 50%,
+    rgba(161, 161, 161, 0),
+    #dadbdd 50%,
     rgba(13, 17, 23, 0)
   );
 }
