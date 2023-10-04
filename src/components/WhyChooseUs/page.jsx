@@ -4,7 +4,7 @@ import React from "react";
 const WhyChooseUS = () => {
   return (
     <div className="w-full py-6 relative">
-     <div className="icon absolute top-10 right-28">
+     <div className="icon hidden md:block absolute top-10 right-28">
       <img
         src="/Assest/arrow.svg"
         alt="icon"

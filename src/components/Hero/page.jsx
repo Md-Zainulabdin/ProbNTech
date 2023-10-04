@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="w-full h-full flex justify-center items-center">
       <div className="w-full max-w-[400] py-20 md:py-28 md:text-center flex flex-col gap-6 relative">
-        <div className="icon absolute top-16 right-28">
+        <div className="icon hidden md:block absolute top-16 right-28">
           <img
             src="/Assest/rocket.svg"
             alt="icon"
