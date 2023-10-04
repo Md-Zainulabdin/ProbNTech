@@ -1,7 +1,7 @@
 import React from "react";
 import { TfiWorld } from "react-icons/tfi";
 import { MdOutlineDesignServices } from "react-icons/md";
-import { AiOutlineLineChart } from "react-icons/ai";
+import { AiOutlineLineChart,AiOutlineVideoCameraAdd } from "react-icons/ai";
 import { TbSeo } from "react-icons/tb";
 import { CiMobile1 } from "react-icons/ci";
 
@@ -52,6 +52,15 @@ const service_card = [
     title: "App Deveoplment",
     desc: `Graphic design is the visual art of communication through typography, imagery, and layout, vital for creating impactful branding and marketing materials`,
   },
+  {
+    icon: (
+      <div className="my-2 w-[60px] h-[60px] flex items-center justify-center rounded-full bg-[#fceef3]">
+        <AiOutlineVideoCameraAdd size={30} className="text-[#ff689b]" />
+      </div>
+    ),
+    title: "Video Editing",
+    desc: `Crafting engaging videos through precise editing techniques to captivate your audience.`,
+  },
 ];
 
 const ServicesSection = () => {
@@ -66,7 +75,7 @@ const ServicesSection = () => {
       <div className="services-cards w-full flex items-center justify-center flex-wrap gap-8 py-8">
         {service_card.map((item, index) => (
           <div
-            className="w-[350px] p-6 borde bg-[#fbfbfb] flex flex-col items-start gap-3 rounded-md hover:translate-y-[-5px] hover:scale-[1.01] duration-300 ease-in-out shadow-md"
+            className="w-[350px] p-6 borde bg-[#fbfbfb] flex flex-col items-start gap-3 border border-[#f8f8f8] hover:border-[#ccc] rounded-md duration-300 ease-in-out cursor-pointer"
             key={index}
           >
             <div className="icon ">{item.icon}</div>

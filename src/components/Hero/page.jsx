@@ -3,7 +3,15 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="w-full h-full flex justify-center items-center">
-      <div className="w-full max-w-[400] py-20 md:py-28 md:text-center flex flex-col gap-6">
+      <div className="w-full max-w-[400] py-20 md:py-28 md:text-center flex flex-col gap-6 relative">
+        <div className="icon absolute top-16 right-28">
+          <img
+            src="/Assest/rocket.svg"
+            alt="icon"
+            className="w-[50px] h-[50px]"
+          />
+        </div>
+
         <div className="sub-heading">
           <h2 className="poppins text-md sm:text-lg font-medium uppercase text-[#999]">
             from ideas to reality
@@ -15,7 +23,10 @@ const Hero = () => {
             <span>Explore the World </span>
             <span>
               {" "}
-              With <span className="text_gradient_pink font-extrabold">Prob N Tech</span>
+              With{" "}
+              <span className="text_gradient_pink font-extrabold">
+                Prob N Tech
+              </span>
             </span>
           </h1>
         </div>

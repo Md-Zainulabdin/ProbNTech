@@ -5,6 +5,7 @@ import Hero from '@/components/Hero/page'
 import Navbar from '@/components/Navbar/page'
 import ServicesSection from '@/components/Services/page'
 import OurVision from '@/components/Vision/page'
+import WhyChooseUS from '@/components/WhyChooseUs/page'
 import React from 'react'
 
 const Home = () => {
@@ -37,6 +38,14 @@ const Home = () => {
 
       <section className='w-full px-[20px] sm:px-[40px] lg:px-[70px]' id={'service'}>
         <ServicesSection />
+      </section>
+
+      {/* Why Choose US Section */}
+
+      <div className="light_line my-12"></div>
+
+      <section className='w-full px-[20px] sm:px-[40px] lg:px-[70px]' id='vision'>
+        <WhyChooseUS />
       </section>
 
       {/* Vision Section */}
