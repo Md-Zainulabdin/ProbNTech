@@ -40,14 +40,14 @@ const Navbar = () => {
         className="menu items-center gap-6 hidden md:flex"
       >
         <Link
-          href={"/"}
-          className="poppins text-lg md:text-xl font-medium hover:text-white duration-300"
+          href={"#About"}
+          className="poppins text-lg md:text-xl font-medium hover:text-[#666] duration-300"
         >
           About
         </Link>
         <Link
           href={"#service"}
-          className="poppins text-lg md:text-xl font-medium hover:text-white duration-300"
+          className="poppins text-lg md:text-xl font-medium hover:text-[#666] duration-300"
         >
           Services
         </Link>

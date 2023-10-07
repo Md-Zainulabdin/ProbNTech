@@ -4,7 +4,7 @@ import TrustedClient from '@/components/Clients/page'
 import Hero from '@/components/Hero/page'
 import Navbar from '@/components/Navbar/page'
 import ServicesSection from '@/components/Services/page'
-import OurVision from '@/components/Vision/page'
+import Testimonials from '@/components/Testimonials/page'
 import WhyChooseUS from '@/components/WhyChooseUs/page'
 import React from 'react'
 
@@ -53,7 +53,7 @@ const Home = () => {
       <div className="light_line my-12"></div>
 
       <section className='w-full px-[20px] sm:px-[40px] lg:px-[70px]' id='vision'>
-        <OurVision />
+        <Testimonials />
       </section>
     </div>
   )
