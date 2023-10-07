@@ -55,7 +55,7 @@ const AboutUs = () => {
                   </span>
                   Prob N Tech boasts a team of dedicated professionals who are
                   unwaveringly committed to unlocking the full potential of
-                  their clients' businesses.
+                  their clients&apos; businesses.
                 </p>
               </li>
               <li className="text-lg">

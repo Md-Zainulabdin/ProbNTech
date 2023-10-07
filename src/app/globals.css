@@ -5,10 +5,10 @@
 
 :root {
   /* Dark Theme */
-  --primary-text-color-dk: #ccdae7; 
+  --primary-text-color-dk: #ccdae7;
 
   /* Light Theme */
-  --primary-text-color: #222; 
+  --primary-text-color: #222;
 }
 
 html {
@@ -26,7 +26,6 @@ p {
 strong {
   color: #777;
 }
-
 
 .hero-bg {
   width: 100%;
@@ -80,3 +79,4 @@ strong {
   /* Add ellipsis to indicate text truncation */
   text-overflow: ellipsis;
 }
+
